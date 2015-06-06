@@ -1,0 +1,33 @@
+<{*
+* Qualitative Themes for XOOPS
+*
+* @license       http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
+* @project       IXThemes Project, http://ixthemes.org
+* @theme_name    ixt009_emp02
+* @theme_demo    http://ixthemes.sourceforge.net/demo/x/index.php?xoops_theme_select=ixt009_emp02
+* @theme_author  Alexander Galochkin (algalochkin at users.sourceforge.net)
+* @version       $Id: header.html 1301 2009-09-08 17:08:44Z algalochkin $
+*
+* Thanks you, that you have left this header untouched!!!
+*}>
+<div class="ixt-Header">
+ <div class="ixt-Header-png"></div><div class="ixt-Header-jpeg"></div>
+ <{includeq file="$theme_tpl/rss.html"}>
+ <div class="ixt-Logo">
+   <div id="slogan-text" class="ixt-Logo-text"><a href="<{xoAppUrl /}>" title="<{$ixt_sitename}>"><img src="<{xoAppUrl /images/logo.png}>" height="51px" alt="<{$ixt_sitename}>" /></a></div>
+<!--
+   <a href="<{xoAppUrl /}>" title="<{$ixt_sitename}>"><img src="<{xoAppUrl /images/logo.png}>" height="53px" alt="<{$ixt_sitename}>" /></a>
+   <h1 id="name-text" class="ixt-Logo-name"><a href="<{$ixt_url}>/index.php"><{$ixt_sitename}></a></h1>
+   <div id="slogan-text" class="ixt-Logo-text"><{$ixt_slogan}></div>
+-->   
+<{*
+  <a href="http://ixthemes.org/" title="IXThemes"><img src="<{xoAppUrl /images/logo.png}>" height="51px" alt="<{$ixt_sitename}>" /></a>
+  <{if $cms == "icms"}><a href="<{xoAppUrl /}>" title="<{$ixt_sitename}>"><img src="<{xoImgUrl img/icms_logo.png}>" height="51px" alt="<{$ixt_sitename}>" /></a>
+  <{elseif $cms == "xoops"}><a href="<{xoAppUrl /}>" title="<{$ixt_sitename}>"><img src="<{xoImgUrl img/xoops_logo.png}>" height="51px" alt="<{$ixt_sitename}>" /></a>
+  <{elseif $cms == "exm"}><a href="<{xoAppUrl /}>" title="<{$ixt_sitename}>"><img src="<{xoImgUrl img/exm_logo.png}>" height="51px" alt="<{$ixt_sitename}>" /></a>
+  <{else }><a href="<{xoAppUrl /}>" title="<{$ixt_sitename}>"><img src="<{xoAppUrl /images/logo.png}>" height="51px" alt="<{$ixt_sitename}>" /></a>
+  <{/if}>
+*}>
+ </div>
+ <{includeq file="$theme_tpl/banner.html"}>
+</div>

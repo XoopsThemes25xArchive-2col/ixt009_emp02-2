@@ -1,0 +1,38 @@
+/*
+* Qualitative Themes for XOOPS
+*
+* @license       http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
+* @project       IXThemes Project, http://ixthemes.org
+* @theme_name    ixt009_emp02
+* @theme_demo    http://ixthemes.sourceforge.net/demo/x/index.php?xoops_theme_select=ixt009_emp02
+* @theme_author  Alexander Galochkin (algalochkin at users.sourceforge.net)
+* @version       $Id: style.ie7.css 1307 2009-09-10 19:43:50Z algalochkin $
+*
+* Thanks you, that you have left this header untouched!!!
+*/
+/* begin Box, Sheet */
+.ixt-Sheet-tl { clip: rect(auto 74px 74px auto); }
+.ixt-Sheet-tr { clip: rect(auto auto 74px 74px); }
+.ixt-Sheet-bl { clip: rect(74px 74px auto auto); }
+.ixt-Sheet-br { clip: rect(74px auto auto 74px); }
+.ixt-Sheet-tc { clip: rect(auto auto 74px auto); }
+.ixt-Sheet-bc { clip: rect(74px auto auto auto); }
+.ixt-Sheet-cr { clip: rect(auto auto auto 74px); }
+.ixt-Sheet-cl { clip: rect(auto 74px auto auto); }
+/* end Box, Sheet */
+
+/* begin Menu */
+.ixt-nav .r { clip: rect(auto auto auto 936px); }
+/* end Menu */
+
+/* begin MenuItem */
+.ixt-menu a .r { clip: rect(auto auto auto 400px); }
+/* end MenuItem */
+
+/* begin PostContent */
+.ixt-PostContent { height:1%; }
+/* end PostContent */
+
+/* begin Button */
+.ixt-button-wrapper .r { clip: rect(auto auto auto 407px); }
+/* end Button */
